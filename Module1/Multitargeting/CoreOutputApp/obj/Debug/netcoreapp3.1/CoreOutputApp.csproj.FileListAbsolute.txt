@@ -1,0 +1,16 @@
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\bin\Debug\netcoreapp3.1\CoreOutputApp.exe
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\bin\Debug\netcoreapp3.1\CoreOutputApp.deps.json
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\bin\Debug\netcoreapp3.1\CoreOutputApp.runtimeconfig.json
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\bin\Debug\netcoreapp3.1\CoreOutputApp.runtimeconfig.dev.json
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\bin\Debug\netcoreapp3.1\CoreOutputApp.dll
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\bin\Debug\netcoreapp3.1\CoreOutputApp.pdb
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\bin\Debug\netcoreapp3.1\CreaterStringClassLibrary.dll
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\bin\Debug\netcoreapp3.1\CreaterStringClassLibrary.pdb
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\obj\Debug\netcoreapp3.1\CoreOutputApp.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\obj\Debug\netcoreapp3.1\CoreOutputApp.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\obj\Debug\netcoreapp3.1\CoreOutputApp.AssemblyInfoInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\obj\Debug\netcoreapp3.1\CoreOutputApp.AssemblyInfo.cs
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\obj\Debug\netcoreapp3.1\CoreOutputApp.csproj.CopyComplete
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\obj\Debug\netcoreapp3.1\CoreOutputApp.dll
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\obj\Debug\netcoreapp3.1\CoreOutputApp.pdb
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CoreOutputApp\obj\Debug\netcoreapp3.1\CoreOutputApp.genruntimeconfig.cache

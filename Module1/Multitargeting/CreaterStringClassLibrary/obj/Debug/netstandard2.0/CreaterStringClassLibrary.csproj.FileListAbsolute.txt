@@ -1,0 +1,9 @@
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CreaterStringClassLibrary\bin\Debug\netstandard2.0\CreaterStringClassLibrary.deps.json
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CreaterStringClassLibrary\bin\Debug\netstandard2.0\CreaterStringClassLibrary.dll
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CreaterStringClassLibrary\bin\Debug\netstandard2.0\CreaterStringClassLibrary.pdb
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CreaterStringClassLibrary\obj\Debug\netstandard2.0\CreaterStringClassLibrary.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CreaterStringClassLibrary\obj\Debug\netstandard2.0\CreaterStringClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CreaterStringClassLibrary\obj\Debug\netstandard2.0\CreaterStringClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CreaterStringClassLibrary\obj\Debug\netstandard2.0\CreaterStringClassLibrary.AssemblyInfo.cs
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CreaterStringClassLibrary\obj\Debug\netstandard2.0\CreaterStringClassLibrary.dll
+C:\Users\Kirill_Boreiko\Documents\Git\Mentor\Module1\Multitargeting\CreaterStringClassLibrary\obj\Debug\netstandard2.0\CreaterStringClassLibrary.pdb

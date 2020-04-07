@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NSVHU7C9xrcl+unLR63BFBapHxFEFgcMzA3PfvKitln1w51Oc3bkvMzNZaAsVGFiDrwA1D8W6v7i2virz4fQRA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kirill_Boreiko\\Documents\\Git\\Mentor\\Module1\\Multitargeting\\CreaterStringClassLibrary\\CreaterStringClassLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kirill_Boreiko\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Kirill_Boreiko\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
