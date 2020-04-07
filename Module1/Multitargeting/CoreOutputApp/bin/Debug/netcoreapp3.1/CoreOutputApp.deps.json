@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CoreOutputApp/1.0.0": {
+        "dependencies": {
+          "CreaterStringClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "CoreOutputApp.dll": {}
+        }
+      },
+      "CreaterStringClassLibrary/1.0.0": {
+        "runtime": {
+          "CreaterStringClassLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoreOutputApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CreaterStringClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
