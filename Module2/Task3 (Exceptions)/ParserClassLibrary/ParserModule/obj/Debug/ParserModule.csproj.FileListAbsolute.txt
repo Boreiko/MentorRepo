@@ -1,0 +1,10 @@
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserModule\bin\Debug\ParserModule.exe.config
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserModule\bin\Debug\ParserModule.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserModule\bin\Debug\ParserModule.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserModule\bin\Debug\ParserClassLibrary.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserModule\bin\Debug\ParserClassLibrary.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserModule\obj\Debug\ParserModule.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserModule\obj\Debug\ParserModule.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserModule\obj\Debug\ParserModule.csproj.CopyComplete
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserModule\obj\Debug\ParserModule.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserModule\obj\Debug\ParserModule.pdb

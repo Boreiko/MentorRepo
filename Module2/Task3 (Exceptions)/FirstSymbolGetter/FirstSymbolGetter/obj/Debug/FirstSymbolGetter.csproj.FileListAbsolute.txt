@@ -1,0 +1,7 @@
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FirstSymbolGetter\FirstSymbolGetter\bin\Debug\FirstSymbolGetter.exe.config
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FirstSymbolGetter\FirstSymbolGetter\bin\Debug\FirstSymbolGetter.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FirstSymbolGetter\FirstSymbolGetter\bin\Debug\FirstSymbolGetter.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FirstSymbolGetter\FirstSymbolGetter\obj\Debug\FirstSymbolGetter.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FirstSymbolGetter\FirstSymbolGetter\obj\Debug\FirstSymbolGetter.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FirstSymbolGetter\FirstSymbolGetter\obj\Debug\FirstSymbolGetter.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FirstSymbolGetter\FirstSymbolGetter\obj\Debug\FirstSymbolGetter.pdb
