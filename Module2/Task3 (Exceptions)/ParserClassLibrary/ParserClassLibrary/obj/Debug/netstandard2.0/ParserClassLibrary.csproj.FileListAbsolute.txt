@@ -1,0 +1,9 @@
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserClassLibrary\bin\Debug\netstandard2.0\ParserClassLibrary.deps.json
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserClassLibrary\bin\Debug\netstandard2.0\ParserClassLibrary.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserClassLibrary\bin\Debug\netstandard2.0\ParserClassLibrary.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserClassLibrary\obj\Debug\netstandard2.0\ParserClassLibrary.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserClassLibrary\obj\Debug\netstandard2.0\ParserClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserClassLibrary\obj\Debug\netstandard2.0\ParserClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserClassLibrary\obj\Debug\netstandard2.0\ParserClassLibrary.AssemblyInfo.cs
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserClassLibrary\obj\Debug\netstandard2.0\ParserClassLibrary.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task3 (Exceptions)\ParserClassLibrary\ParserClassLibrary\obj\Debug\netstandard2.0\ParserClassLibrary.pdb

@@ -1,0 +1,12 @@
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FileService\FileService\bin\Debug\FileService.exe.config
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FileService\FileService\bin\Debug\FileService.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FileService\FileService\bin\Debug\FileService.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FileService\FileService\obj\Debug\FileService.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FileService\FileService\obj\Debug\FileService.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FileService\FileService\obj\Debug\FileService.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FileService\FileService\obj\Debug\FileService.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FileService\FileService\obj\Debug\FileService.Resources.Messages.resources
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FileService\FileService\obj\Debug\FileService.csproj.GenerateResource.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FileService\FileService\bin\Debug\ru-RU\FileService.resources.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FileService\FileService\obj\Debug\FileService.Resources.Messages.ru-RU.resources
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task2 (BCL)\FileService\FileService\obj\Debug\ru-RU\FileService.resources.dll

@@ -1,0 +1,7 @@
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task1 (Methods)\FileSystemVisitorApp\FileSystemVisitorApp\bin\Debug\FileSystemVisitorApp.exe.config
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task1 (Methods)\FileSystemVisitorApp\FileSystemVisitorApp\bin\Debug\FileSystemVisitorApp.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task1 (Methods)\FileSystemVisitorApp\FileSystemVisitorApp\bin\Debug\FileSystemVisitorApp.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task1 (Methods)\FileSystemVisitorApp\FileSystemVisitorApp\obj\Debug\FileSystemVisitorApp.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task1 (Methods)\FileSystemVisitorApp\FileSystemVisitorApp\obj\Debug\FileSystemVisitorApp.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task1 (Methods)\FileSystemVisitorApp\FileSystemVisitorApp\obj\Debug\FileSystemVisitorApp.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module2\Task1 (Methods)\FileSystemVisitorApp\FileSystemVisitorApp\obj\Debug\FileSystemVisitorApp.pdb
