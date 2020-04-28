@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemVisitorApp", "FileSystemVisitorApp\FileSystemVisitorApp.csproj", "{85340A5A-CA22-4EA9-B04B-05D264CB7B4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestFSV", "UnitTestFSV\UnitTestFSV.csproj", "{85B930BB-901D-4B31-BC95-BDB843C462F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{85340A5A-CA22-4EA9-B04B-05D264CB7B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85340A5A-CA22-4EA9-B04B-05D264CB7B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85340A5A-CA22-4EA9-B04B-05D264CB7B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B930BB-901D-4B31-BC95-BDB843C462F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B930BB-901D-4B31-BC95-BDB843C462F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B930BB-901D-4B31-BC95-BDB843C462F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B930BB-901D-4B31-BC95-BDB843C462F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
