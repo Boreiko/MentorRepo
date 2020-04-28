@@ -1,152 +1,108 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.IO;
-using System.Collections;
+
 
 namespace FileSystemVisitorApp
 {
-    class FileSystemVisitor : IEnumerable
+    public class FileSystemVisitor
     {
-        List<FileSystemInfo> finalList { get; set; }
-        IEnumerable<FileInfo> files { get; set; }
-        IEnumerable<DirectoryInfo> directories { get; set; }
-        DirectoryInfo dirInfo { get; set; }
+        DirectoryInfo directory;
+        public Func<FileSystemInfo, bool> filter;
+        bool isNeedStop = false;
+        public Action action;
 
-        public delegate void DisplayDelegate();
-        
-        public event DisplayDelegate onStart;
-        public event DisplayDelegate onFinish;
-        public event DisplayDelegate onFileFind;
-        public event DisplayDelegate onDirectoryFind;
-        public event DisplayDelegate onFilteredFileFind;
-        public event DisplayDelegate onFilteredDirectoryFind;
+        public event EventHandler<StartEventArgs> onStart;
+        public event EventHandler<FinishEventArgs> onFinish;
+        public event EventHandler<ItemEventArgs> onFileFinded;
+        public event EventHandler<ItemEventArgs> onFilteredFileFinded;
+        public event EventHandler<ItemEventArgs> onDirectoryFinded;
+        public event EventHandler<ItemEventArgs> onFilteredDirectoryFind;
 
-        Func<FileSystemInfo, bool> filterDelegate;
-
-        bool isNeedStopSearching;
-        bool isNeedStopRecursion;
-        bool isNeedExclude;
-        public FileSystemVisitor(string path)
+        public FileSystemVisitor(){
+        }
+        public FileSystemVisitor(string path, Func<FileSystemInfo, bool> filter = null)
         {
-            dirInfo = new DirectoryInfo(path);
-            finalList = new List<FileSystemInfo>(); 
+            directory = new DirectoryInfo(path);
+            this.filter = filter;
+        }
+        public IEnumerable<FileSystemInfo> StartByPassing()
+        {
+            onStart.Invoke(this, new StartEventArgs());
+
+            foreach (var fileSystemInfo in GetFileInfo(directory))
+            {
+                yield return fileSystemInfo;
+            }
+            onFinish.Invoke(this, new FinishEventArgs());
         }
 
-        public FileSystemVisitor(string path, Func<FileSystemInfo, bool> filterDelegate, bool isNeedStopSearching = false, bool isNeedExclude= false) : this(path)
+        IEnumerable<FileSystemInfo> GetFileInfo(DirectoryInfo directory)
         {
-            this.filterDelegate = filterDelegate;
-            this.isNeedExclude = isNeedExclude;
-            this.isNeedStopSearching = isNeedStopSearching;
-        }
+            foreach (var fileSystemInfo in directory.EnumerateFileSystemInfos())
+            {
+                if (isNeedStop) break;
 
-        public void Start()
-        {
-            onStart();
-            GetFiles(dirInfo);           
-            onFinish();
-        }
-
-        void GetFiles(DirectoryInfo dirInfo)
-        {
-            if (filterDelegate == null)    // if don't need filter get files
-            {  
-                finalList.Add(dirInfo);
-
-                onDirectoryFind?.Invoke();
-
-                files = dirInfo.GetFiles();
-
-                if (files.Count() != 0)           // Add files to Final list
+                if (fileSystemInfo is DirectoryInfo)
                 {
-                    foreach (var file in files)
+                    action = ProcessItem((DirectoryInfo)fileSystemInfo, onDirectoryFinded, onFilteredDirectoryFind);
+
+                    if (action == Action.Continue)
                     {
-                        onFileFind?.Invoke();
-                        finalList.Add(file);
-                    }
-                }
+                        yield return fileSystemInfo;
 
-                directories = dirInfo.GetDirectories();
-
-                foreach (var dir in directories)
-                {
-                    dirInfo = dir;
-                    GetFiles(dirInfo);
-                }
-            }
-            else  // if Need Filter 
-            {
-                GetFilterFiles();
-            }
-        }
-        void GetFilterFiles()
-        {
-            if (!isNeedExclude)    // if Finded Directory Filter DO NOT NEED exclude from final list
-            {
-                if (filterDelegate(dirInfo))    // if filter matched add to final list
-                {
-                    finalList.Add(dirInfo);
-                    onFilteredDirectoryFind?.Invoke();
-
-                    if (isNeedStopSearching) { isNeedStopRecursion = true; return; }  // STOP RECURSION 
-                }
-            }
-            else                   // if Finded directory Filter NEED exclude from final list
-            {
-                if (!filterDelegate(dirInfo)) // if directory finded DO NOT add to Final List
-                    finalList.Add(dirInfo);
-                else
-                {
-                    onFilteredDirectoryFind?.Invoke();
-                }
-
-                if (isNeedStopSearching) { isNeedStopRecursion = true; return; }   // STOP RECURSION 
-            }
-
-            files = dirInfo.GetFiles();
-
-            if (files.Count() != 0)
-            {
-                foreach (var file in files)
-                {
-                    if (!isNeedExclude)      // if Finded File Filter DO NOT NEED exclude from final list
-                    {
-                        if (filterDelegate(file))    
+                        foreach (var fsi in GetFileInfo((DirectoryInfo)fileSystemInfo))
                         {
-                            finalList.Add(file);
-                            onFilteredFileFind?.Invoke();
-
-                            if (isNeedStopSearching) { isNeedStopRecursion = true; ; return; }
+                            yield return fsi;
                         }
-                    }
-
-                    else
-                    {
-                        if (!filterDelegate(file))
-                            finalList.Add(file);
-                        else
-                        {
-                            onFilteredFileFind?.Invoke();
-                        }
+                        continue;
                     }
                 }
-            }
 
-            directories = dirInfo.GetDirectories();
+                if (fileSystemInfo is FileInfo)
+                {
+                    action = ProcessItem((FileInfo)fileSystemInfo, onFileFinded, onFilteredFileFinded);
+                }
 
-            foreach (var dir in directories)
-            {
-                if (isNeedStopRecursion) return;
-                dirInfo = dir;
-                GetFiles(dirInfo);
+                if (action == Action.Stop)
+                {
+                    isNeedStop = true;
+                    yield break;
+                }
+                if (action == Action.Skip)
+                {
+                    continue;
+                }
+                yield return fileSystemInfo;
             }
         }
-         public IEnumerator GetEnumerator()
+
+        public Action ProcessItem(FileSystemInfo item, EventHandler<ItemEventArgs> itemFinded, EventHandler<ItemEventArgs> filteredItemFinded)            
         {
-            foreach (var item in finalList)
+            ItemEventArgs args = new ItemEventArgs
             {
-                yield return item.FullName;
+                Item = item,
+            };
+
+            action = Action.Continue;
+
+            itemFinded.Invoke(this, args);
+ 
+            if (filter == null)
+            {
+                return action;
             }
+
+            if (filter(item))
+            {
+                filteredItemFinded.Invoke(this, args);
+                return action;
+            }
+
+            if (action == Action.Continue)
+                return Action.Continue;
+
+            return Action.Skip;
         }
     }
 }

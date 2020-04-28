@@ -1,72 +1,65 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-
 
 namespace FileSystemVisitorApp
 {
-    class Program
+    class Programm
     {
         static void Main(string[] args)
         {
-            
             string path = @"..\..\..\TestFiles";
-            #region WithoutFilter
-            FileSystemVisitor fsv = new FileSystemVisitor(path);   // without filter
+            
+            FileSystemVisitor fsv = new FileSystemVisitor(path, (x) => x.Name.Contains("C#"));
 
-            fsv.onStart += StartNotify;
-            fsv.onFinish += FinishNotify;
-            fsv.onFileFind += FileFindedNotify;
-            fsv.onDirectoryFind += DirectoryFindedNotify;
-            fsv.Start();
-            OutputFiles(fsv);
-            #endregion
+            InitHandlers(fsv);
 
-            #region WithFilter
-            //FileSystemVisitor fsv = new FileSystemVisitor(path, x => x.Name.Contains("C#"), false, false);     // using filter 
-            //fsv.onStart += StartNotify;
-            //fsv.onFinish += FinishNotify;
-            //fsv.onFilteredFileFind += FilteredFileFindedNotify;
-            //fsv.onFilteredDirectoryFind += FilteredDirectoryFindedNotify;
-            //fsv.Start();
-            //OutputFiles(fsv);
-            #endregion
-
-            Console.ReadLine();
+            Output(fsv);
         }
-        static void OutputFiles(FileSystemVisitor fsv)
+        static void InitHandlers(FileSystemVisitor fsv)
         {
-            Console.WriteLine("\nFiles:");
-            foreach (var item in fsv)
+            fsv.onStart += (obj, args) =>
             {
-                Console.WriteLine(item);
+                Console.WriteLine("Getting files START!");
+            };
+
+            fsv.onFinish += (obj, args) =>
+            {
+                Console.WriteLine("Getting files FINISH!");
+            };
+
+            fsv.onFileFinded += (obj, args) =>
+            {
+                Console.WriteLine("Founded file: " + args.Item.Name);
+                if (args.Item.Name.Contains("C#"))
+                 fsv.action = Action.Stop;
+            };
+
+            fsv.onDirectoryFinded += (obj, args) =>
+            {
+                Console.WriteLine("Founded directory: " + args.Item.Name);
+               // if (args.Item.Name.Contains("Net"))
+               //     fsv.action = Action.Skip;
+            };
+
+            fsv.onFilteredFileFinded += (obj, args) =>
+            {
+                Console.WriteLine("Founded file after FILTER: " + args.Item.Name);
+            };
+
+            fsv.onFilteredDirectoryFind += (obj, args) =>
+            {
+                Console.WriteLine("Founded directory after FILTER: " + args.Item.Name);
+            };
+        }
+        static void Output(FileSystemVisitor fsv)
+        {
+            foreach (var fileSysInfo in fsv.StartByPassing())
+            {
+                Console.WriteLine(fileSysInfo + "\n");
             }
-        }
-
-        static public void StartNotify() {
-            Console.WriteLine("Getting files START!");
-        }
-
-        static public void FinishNotify() {
-            Console.WriteLine("Getting files FINISH!");
-        }
-        
-        static public void FileFindedNotify()
-        {
-            Console.WriteLine("File finded");
-        }
-        static public void DirectoryFindedNotify()
-        {
-            Console.WriteLine("Directory finded");
-        }
-        static public void FilteredFileFindedNotify()
-        {
-            Console.WriteLine("Filtered file finded");
-        }
-
-        static public void FilteredDirectoryFindedNotify()
-        {
-            Console.WriteLine("Filtered directory finded");
+            Console.ReadKey();
         }
     }
 }
+
+
+
