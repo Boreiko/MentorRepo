@@ -29,8 +29,8 @@ namespace FileSystemVisitorApp
             fsv.onFileFinded += (obj, args) =>
             {
                 Console.WriteLine("Founded file: " + args.Item.Name);
-                if (args.Item.Name.Contains("C#"))
-                 fsv.action = Action.Stop;
+           //     if (args.Item.Name.Contains("C#"))
+            //     fsv.action = Action.Stop;
             };
 
             fsv.onDirectoryFinded += (obj, args) =>
