@@ -1,0 +1,9 @@
+C:\Users\Kirill_Boreiko\source\repos\Northwind\Northwind1.1\bin\Debug\Northwind1.1.dacpac
+C:\Users\Kirill_Boreiko\source\repos\Northwind\Northwind1.1\bin\Debug\Northwind1.1.dll
+C:\Users\Kirill_Boreiko\source\repos\Northwind\Northwind1.1\bin\Debug\Northwind1.1.pdb
+C:\Users\Kirill_Boreiko\source\repos\Northwind\Northwind1.1\obj\Debug\Northwind1.1.dll
+C:\Users\Kirill_Boreiko\source\repos\Northwind\Northwind1.1\obj\Debug\Northwind1.1.pdb
+C:\Users\Kirill_Boreiko\source\repos\Northwind\Northwind1.1\obj\Debug\Model.xml
+C:\Users\Kirill_Boreiko\source\repos\Northwind\Northwind1.1\obj\Debug\refactor.xml
+C:\Users\Kirill_Boreiko\source\repos\Northwind\Northwind1.1\obj\Debug\postdeploy.sql
+C:\Users\Kirill_Boreiko\source\repos\Northwind\Northwind1.1\obj\Debug\predeploy.sql

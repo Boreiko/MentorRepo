@@ -1,0 +1,5 @@
+C:\Users\Kirill_Boreiko\source\repos\Northwind\Northwind\bin\Debug\Northwind.dacpac
+C:\Users\Kirill_Boreiko\source\repos\Northwind\Northwind\bin\Debug\Northwind.dll
+C:\Users\Kirill_Boreiko\source\repos\Northwind\Northwind\bin\Debug\Northwind.pdb
+C:\Users\Kirill_Boreiko\source\repos\Northwind\Northwind\obj\Debug\Northwind.dll
+C:\Users\Kirill_Boreiko\source\repos\Northwind\Northwind\obj\Debug\Northwind.pdb
