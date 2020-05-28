@@ -1,0 +1,7 @@
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module3\MyIoC\MyIoC\obj\Debug\MyIoC.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module3\MyIoC\MyIoC\obj\Debug\MyIoC.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module3\MyIoC\MyIoC\bin\Debug\MyIoC.exe.config
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module3\MyIoC\MyIoC\bin\Debug\MyIoC.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module3\MyIoC\MyIoC\bin\Debug\MyIoC.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module3\MyIoC\MyIoC\obj\Debug\MyIoC.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module3\MyIoC\MyIoC\obj\Debug\MyIoC.pdb
