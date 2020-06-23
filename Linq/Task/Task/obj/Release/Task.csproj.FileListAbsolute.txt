@@ -1,0 +1,10 @@
+C:\Users\Kirill_Boreiko\Documents\Mentor\Linq\Task\Task\obj\Release\Task.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Linq\Task\Task\bin\Release\Task.exe.config
+C:\Users\Kirill_Boreiko\Documents\Mentor\Linq\Task\Task\bin\Release\Task.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Linq\Task\Task\bin\Release\Task.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Linq\Task\Task\obj\Release\Task.Properties.Resources.resources
+C:\Users\Kirill_Boreiko\Documents\Mentor\Linq\Task\Task\obj\Release\SampleSupport.SampleForm.resources
+C:\Users\Kirill_Boreiko\Documents\Mentor\Linq\Task\Task\obj\Release\Task.csproj.GenerateResource.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Linq\Task\Task\obj\Release\Task.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Linq\Task\Task\obj\Release\Task.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Linq\Task\Task\obj\Release\Task.pdb
