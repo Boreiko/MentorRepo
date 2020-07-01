@@ -1,0 +1,10 @@
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2.Nuget\bin\Debug\Task2.Nuget.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2.Nuget\bin\Debug\Task2.Nuget.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2.Nuget\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2.Nuget\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2.Nuget\obj\Debug\Task2.Nuget.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2.Nuget\obj\Debug\Task2.Nuget.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2.Nuget\obj\Debug\Task2.Nuget.csproj.CopyComplete
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2.Nuget\obj\Debug\Task2.Nuget.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2.Nuget\obj\Debug\Task2.Nuget.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2.Nuget\bin\Debug\NuGet.Server.dll
