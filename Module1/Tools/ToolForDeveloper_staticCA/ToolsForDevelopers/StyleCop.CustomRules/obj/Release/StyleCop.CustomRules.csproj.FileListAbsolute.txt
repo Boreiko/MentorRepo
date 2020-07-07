@@ -21,3 +21,4 @@ C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolForDeveloper_staticCA
 C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolForDeveloper_staticCA\ToolsForDevelopers\StyleCop.CustomRules\obj\Release\StyleCop.CustomRules.csproj.CopyComplete
 C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolForDeveloper_staticCA\ToolsForDevelopers\StyleCop.CustomRules\obj\Release\StyleCop.CustomRules.dll
 C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolForDeveloper_staticCA\ToolsForDevelopers\StyleCop.CustomRules\obj\Release\StyleCop.CustomRules.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolForDeveloper_staticCA\ToolsForDevelopers\StyleCop.CustomRules\obj\Release\StyleCop.CustomRules.csprojAssemblyReference.cache

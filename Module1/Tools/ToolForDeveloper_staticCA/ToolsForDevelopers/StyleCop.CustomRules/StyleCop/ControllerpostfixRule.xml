@@ -4,7 +4,7 @@
     Custom rule for demo purposes.
   </Description>
   <Rules>
-    <Rule Name="CustomRules" CheckId="CR0001">
+    <Rule Name="ControllerPrefixRule" CheckId="CR0001">
       <Context>Controller name must ended to '...Controller'</Context>
       <Description>Controller name must ended to '...Controller'</Description>
     </Rule>
