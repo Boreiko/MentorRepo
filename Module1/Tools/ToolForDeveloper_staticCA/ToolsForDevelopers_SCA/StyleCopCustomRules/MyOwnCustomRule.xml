@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SourceAnalyzer Name="My Custom Rule">
+  <Description> Custom rules for demo purposes.</Description>
+  <Rules>
+    <RuleGroup Name="Classes Rules">
+      <Rule Name="ClassMustBePublic" CheckId="HE2223">
+        <Context>All classes must be public.</Context>
+        <Description>All classes  must be public.</Description>
+      </Rule>
+      <Rule Name="ClassMustHavePublicId" CheckId="HE2224">
+        <Context>All classes must have public property "Id".</Context>
+        <Description>All classes must have public property "Id".</Description>
+      </Rule>
+      <Rule Name="ClassMustHaveAttribute" CheckId="HE2225">
+        <Context>All classes must have Attribute [DataContract].</Context>
+        <Description>All classes must have Attribute [DataContract].</Description>
+      </Rule>
+      <Rule Name="ClassMustHavePublicName" CheckId="HE2226">
+        <Context>All classes under must have public property "Name".</Context>
+        <Description>All classes under must have public property "Name".</Description>
+      </Rule>
+    </RuleGroup>
+    <RuleGroup Name="Controllers Rules">
+      <Rule Name="SystemWebMvcControllerMustHaveSuffixController" CheckId="HE2227">
+        <Context>Class inherited from System.Web.Mvc.Controller must have suffix controller.</Context>
+        <Description>Class inherited from System.Web.Mvc.Controller must have suffix controller.</Description>
+      </Rule>
+      <Rule Name="SystemWebMvcControllerMustHaveAttribute" CheckId="HE2228">
+        <Context>Class inherited from System.Web.Mvc.Controller must have attribute "Authorize"</Context>
+        <Description>Class inherited from System.Web.Mvc.Controller must have attribute "Authorize"</Description>
+      </Rule>
+    </RuleGroup>
+  </Rules>
+</SourceAnalyzer>

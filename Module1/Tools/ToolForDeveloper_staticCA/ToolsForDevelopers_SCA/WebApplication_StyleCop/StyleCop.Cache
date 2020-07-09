@@ -1,0 +1,277 @@
+<stylecopresultscache>
+  <version>12</version>
+  <project key="332433859">
+    <configuration>TRACE</configuration>
+  </project>
+  <sourcecode name="BundleConfig.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/07/04 23:03:21.857</styleCop>
+      <settingsFile>2020/07/09 12:29:51.970</settingsFile>
+      <sourceFile>2020/07/09 12:23:44.156</sourceFile>
+      <parser>2020/07/04 23:03:21.857</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/07/04 23:03:21.857</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1884369897</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/07/04 23:03:21.857</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/07/04 23:03:21.857</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/07/04 23:03:21.857</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <StyleCopCustomRules.MyOwnCustomRule>2020/07/04 23:03:21.857</StyleCopCustomRules.MyOwnCustomRule>
+      <StyleCopCustomRules.MyOwnCustomRule.FilesHashCode>0</StyleCopCustomRules.MyOwnCustomRule.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHaveAttribute" ruleCheckId="HE2225">
+        <context>All classes must have Attribute [DataContract].</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHavePublicId" ruleCheckId="HE2224">
+        <context>All classes must have public property "Id".</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHavePublicName" ruleCheckId="HE2226">
+        <context>All classes under must have public property "Name".</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="FilterConfig.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/07/04 23:03:21.857</styleCop>
+      <settingsFile>2020/07/09 12:29:51.970</settingsFile>
+      <sourceFile>2020/07/09 12:23:44.160</sourceFile>
+      <parser>2020/07/04 23:03:21.857</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/07/04 23:03:21.857</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1884369897</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/07/04 23:03:21.857</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/07/04 23:03:21.857</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/07/04 23:03:21.857</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <StyleCopCustomRules.MyOwnCustomRule>2020/07/04 23:03:21.857</StyleCopCustomRules.MyOwnCustomRule>
+      <StyleCopCustomRules.MyOwnCustomRule.FilesHashCode>0</StyleCopCustomRules.MyOwnCustomRule.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHaveAttribute" ruleCheckId="HE2225">
+        <context>All classes must have Attribute [DataContract].</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHavePublicId" ruleCheckId="HE2224">
+        <context>All classes must have public property "Id".</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHavePublicName" ruleCheckId="HE2226">
+        <context>All classes under must have public property "Name".</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="RouteConfig.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/07/04 23:03:21.857</styleCop>
+      <settingsFile>2020/07/09 12:29:51.970</settingsFile>
+      <sourceFile>2020/07/09 12:23:44.165</sourceFile>
+      <parser>2020/07/04 23:03:21.857</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/07/04 23:03:21.857</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1884369897</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/07/04 23:03:21.857</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/07/04 23:03:21.857</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/07/04 23:03:21.857</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <StyleCopCustomRules.MyOwnCustomRule>2020/07/04 23:03:21.857</StyleCopCustomRules.MyOwnCustomRule>
+      <StyleCopCustomRules.MyOwnCustomRule.FilesHashCode>0</StyleCopCustomRules.MyOwnCustomRule.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHaveAttribute" ruleCheckId="HE2225">
+        <context>All classes must have Attribute [DataContract].</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHavePublicId" ruleCheckId="HE2224">
+        <context>All classes must have public property "Id".</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHavePublicName" ruleCheckId="HE2226">
+        <context>All classes under must have public property "Name".</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="HomeController.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/07/04 23:03:21.857</styleCop>
+      <settingsFile>2020/07/09 12:29:51.970</settingsFile>
+      <sourceFile>2020/07/09 12:49:19.793</sourceFile>
+      <parser>2020/07/04 23:03:21.857</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/07/04 23:03:21.857</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1884369897</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/07/04 23:03:21.857</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/07/04 23:03:21.857</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/07/04 23:03:21.857</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <StyleCopCustomRules.MyOwnCustomRule>2020/07/04 23:03:21.857</StyleCopCustomRules.MyOwnCustomRule>
+      <StyleCopCustomRules.MyOwnCustomRule.FilesHashCode>0</StyleCopCustomRules.MyOwnCustomRule.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHaveAttribute" ruleCheckId="HE2225">
+        <context>All classes must have Attribute [DataContract].</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHavePublicId" ruleCheckId="HE2224">
+        <context>All classes must have public property "Id".</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHavePublicName" ruleCheckId="HE2226">
+        <context>All classes under must have public property "Name".</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="Global.asax.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/07/04 23:03:21.857</styleCop>
+      <settingsFile>2020/07/09 12:29:51.970</settingsFile>
+      <sourceFile>2020/07/09 12:23:44.179</sourceFile>
+      <parser>2020/07/04 23:03:21.857</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/07/04 23:03:21.857</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1884369897</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/07/04 23:03:21.857</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/07/04 23:03:21.857</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/07/04 23:03:21.857</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <StyleCopCustomRules.MyOwnCustomRule>2020/07/04 23:03:21.857</StyleCopCustomRules.MyOwnCustomRule>
+      <StyleCopCustomRules.MyOwnCustomRule.FilesHashCode>0</StyleCopCustomRules.MyOwnCustomRule.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHaveAttribute" ruleCheckId="HE2225">
+        <context>All classes must have Attribute [DataContract].</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHavePublicId" ruleCheckId="HE2224">
+        <context>All classes must have public property "Id".</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHavePublicName" ruleCheckId="HE2226">
+        <context>All classes under must have public property "Name".</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/07/04 23:03:21.857</styleCop>
+      <settingsFile>2020/07/09 12:29:51.970</settingsFile>
+      <sourceFile>2020/07/09 12:23:44.174</sourceFile>
+      <parser>2020/07/04 23:03:21.857</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/07/04 23:03:21.857</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1884369897</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/07/04 23:03:21.857</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/07/04 23:03:21.857</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/07/04 23:03:21.857</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <StyleCopCustomRules.MyOwnCustomRule>2020/07/04 23:03:21.857</StyleCopCustomRules.MyOwnCustomRule>
+      <StyleCopCustomRules.MyOwnCustomRule.FilesHashCode>0</StyleCopCustomRules.MyOwnCustomRule.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Test.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/07/04 23:03:21.857</styleCop>
+      <settingsFile>2020/07/09 12:29:51.970</settingsFile>
+      <sourceFile>2020/07/09 12:57:37.585</sourceFile>
+      <parser>2020/07/04 23:03:21.857</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/07/04 23:03:21.857</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1884369897</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/07/04 23:03:21.857</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/07/04 23:03:21.857</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/07/04 23:03:21.857</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/07/04 23:03:21.857</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <StyleCopCustomRules.MyOwnCustomRule>2020/07/04 23:03:21.857</StyleCopCustomRules.MyOwnCustomRule>
+      <StyleCopCustomRules.MyOwnCustomRule.FilesHashCode>0</StyleCopCustomRules.MyOwnCustomRule.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHaveAttribute" ruleCheckId="HE2225">
+        <context>All classes must have Attribute [DataContract].</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHavePublicId" ruleCheckId="HE2224">
+        <context>All classes must have public property "Id".</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopCustomRules.MyOwnCustomRule" rule="ClassMustHavePublicName" ruleCheckId="HE2226">
+        <context>All classes under must have public property "Name".</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+</stylecopresultscache>

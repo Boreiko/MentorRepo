@@ -1,0 +1,11 @@
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2Test\bin\Debug\Task2Test.exe.config
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2Test\bin\Debug\Task2Test.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2Test\bin\Debug\Task2Test.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2Test\obj\Debug\Task2Test.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2Test\obj\Debug\Task2Test.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2Test\obj\Debug\Task2Test.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2Test\obj\Debug\Task2Test.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2Test\bin\Debug\Task2.Nuget.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module1\Tools\ToolsForDeveloper\Task2Test\obj\Debug\Task2Test.csproj.CopyComplete
