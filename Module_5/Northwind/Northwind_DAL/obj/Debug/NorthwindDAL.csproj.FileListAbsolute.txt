@@ -1,0 +1,6 @@
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module5\Northwind\Northwind_DAL\bin\Debug\Northwind_DAL.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module5\Northwind\Northwind_DAL\bin\Debug\Northwind_DAL.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module5\Northwind\Northwind_DAL\obj\Debug\NorthwindDAL.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module5\Northwind\Northwind_DAL\obj\Debug\NorthwindDAL.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module5\Northwind\Northwind_DAL\obj\Debug\Northwind_DAL.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module5\Northwind\Northwind_DAL\obj\Debug\Northwind_DAL.pdb
