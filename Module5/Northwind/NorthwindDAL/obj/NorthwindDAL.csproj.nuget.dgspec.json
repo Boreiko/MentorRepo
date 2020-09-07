@@ -25,6 +25,7 @@
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Users\\Kirill_Boreiko\\Documents\\Mentor\\Module1\\Tools\\ToolsForDeveloper\\Task2.Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
