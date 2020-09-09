@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="IgnoreMapping.cs" />
     <Compile Include="Interfaces\IDbConnectionFactory.cs" />
-    <Compile Include="Interfaces\IObjectMapper.cs" />
     <Compile Include="Interfaces\IOrderRepository.cs" />
     <Compile Include="Models\CustomerOrdersDetail.cs" />
     <Compile Include="Models\CustomerProductDetail.cs" />

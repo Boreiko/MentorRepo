@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace NorthwindDAL
 {
-    public class ObjectMapper : IObjectMapper
+    public class ObjectMapper
     {
         public T MapReaderToObject<T>(DbDataReader reader)
         {
