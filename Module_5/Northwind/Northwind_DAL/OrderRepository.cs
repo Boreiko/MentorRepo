@@ -10,10 +10,9 @@ namespace NorthwindDAL.Repositories
 {
     public class OrderRepository : IOrderRepository
     {
-        private IObjectMapper mappingObject;
+        private ObjectMapper mappingObject;
         public IDbConnectionFactory connectionDB { get; set; }
-
-        public OrderRepository(string connectionString, string provider, IObjectMapper mappingObject, IDbConnectionFactory connection)
+        public OrderRepository(string connectionString, string provider, ObjectMapper mappingObject, IDbConnectionFactory connection)
         {
             this.connectionDB = connection;
             connection.ConnectionString = connectionString;
@@ -22,24 +21,22 @@ namespace NorthwindDAL.Repositories
         }
         public virtual IEnumerable<Order> GetOrders()
         {
-            var resultOrders = new List<Order>();
+            var orders = new List<Order>();
+          
             using (var connection = connectionDB.CreateConnection())
             {
                 using (var command = connection.CreateCommand())
                 {
-                    command.CommandText = "select OrderID, OrderDate, ShipName, ShipAddress, ShippedDate from dbo.Orders";
+                    command.CommandText = "Select OrderID, OrderDate, ShipName, ShipAddress, ShippedDate from dbo.Orders";
                     command.CommandType = CommandType.Text;
                     using (var reader = command.ExecuteReader())
                     {
-
                         while (reader != null && reader.Read())
-                        {
-                            resultOrders.Add(mappingObject.MapReaderToObject<Order>(reader));
-                        }
+                            orders.Add(mappingObject.MapReaderToObject<Order>(reader));               
                     }
                 }
             }
-            return resultOrders;
+            return orders;
         }
         public virtual Order GetOrderById(int id)
         {
@@ -48,8 +45,8 @@ namespace NorthwindDAL.Repositories
                 using (var command = connection.CreateCommand())
                 {
                     command.CommandText =
-                            @"select OrderID, OrderDate, ShipName, ShipAddress, ShippedDate from dbo.Orders where OrderID = @id;
-                        select OrderID, dbo.[Order Details].UnitPrice, Quantity, ProductName, dbo.[Order Details].ProductID  
+                            @"Select OrderID, OrderDate, ShipName, ShipAddress, ShippedDate from dbo.Orders where OrderID = @id;
+                        Select OrderID, dbo.[Order Details].UnitPrice, Quantity, ProductName, dbo.[Order Details].ProductID  
                         ProductID from dbo.[Order Details], dbo.Products where OrderID = @id 
                         and dbo.[Order Details].ProductID = dbo.Products.ProductID";
 
@@ -63,6 +60,7 @@ namespace NorthwindDAL.Repositories
                     {
                         if (reader == null || !reader.HasRows)
                             return null;
+
                         reader.Read();
 
                         var order = mappingObject.MapReaderToObject<Order>(reader);
@@ -71,9 +69,8 @@ namespace NorthwindDAL.Repositories
                         reader.NextResult();
 
                         while (reader.Read())
-                        {
                             order.Details.Add(mappingObject.MapReaderToObject<OrderDetail>(reader));
-                        }
+                        
                         return order;
                     }
 
@@ -86,12 +83,10 @@ namespace NorthwindDAL.Repositories
             using (var connection = connectionDB.CreateConnection())
             {
                 var MaxID = CreateNewOrder(connection, newOrder);
-                foreach (var item in newOrder.Details)
-                {
-                    CreateDetailsOrder(connection, MaxID, item);
-                }
-            }
 
+                foreach (var item in newOrder.Details)
+                    CreateDetailsOrder(connection, MaxID, item);               
+            }
         }
         public virtual Order Update(Order order)
         {
@@ -172,9 +167,7 @@ namespace NorthwindDAL.Repositories
                     using (var reader = command.ExecuteReader())
                     {
                         while (reader == null || reader.Read())
-                        {
                             customerProductDetail.Add(mappingObject.MapReaderToObject<CustomerProductDetail>(reader));
-                        }
                     }
                 }
                 return customerProductDetail;
@@ -199,9 +192,8 @@ namespace NorthwindDAL.Repositories
                     using (var reader = command.ExecuteReader())
                     {
                         while (reader == null || reader.Read())
-                        {
                             custOrderHists.Add(mappingObject.MapReaderToObject<CustomerOrdersDetail>(reader));
-                        }
+                       
                     }
                 }
             }

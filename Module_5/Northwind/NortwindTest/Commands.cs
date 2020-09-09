@@ -3,9 +3,7 @@ using NorthwindDAL.Models;
 using NorthwindDAL.Repositories;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace NorthwindUnitTest
 {
@@ -45,7 +43,30 @@ namespace NorthwindUnitTest
             connection.Close();
             return count;
         }
-
+        public static int ExecuteSelectMaxOrdersNewStatus()
+        {
+            int id = 0;
+            var connection = orderRepository.connectionDB.CreateConnection();
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = "SELECT MAX(OrderID) FROM Orders WHERE OrderDate is null";
+                id = (int)command.ExecuteScalar();
+            }
+            connection.Close();
+            return id;
+        }
+        public static int ExecuteSelectOrderDateByID()
+        {
+            int id = 0;
+            var connection = orderRepository.connectionDB.CreateConnection();
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = "SELECT MAX(OrderID) FROM Orders WHERE OrderDate is null";
+                id = (int)command.ExecuteScalar();
+            }
+            connection.Close();
+            return id;
+        }
         public static Order GetNewOrder()
         {
             return new Order()
@@ -69,32 +90,6 @@ namespace NorthwindUnitTest
                     },
                 }
             };
-        }
-
-        public static int ExecuteSelectMaxOrdersNewStatus()
-        {
-            int id = 0;
-            var connection = orderRepository.connectionDB.CreateConnection();
-            using (var command = connection.CreateCommand())
-            {
-                command.CommandText = "SELECT MAX(OrderID) FROM Orders WHERE OrderDate is null";
-                id = (int)command.ExecuteScalar();
-            }
-            connection.Close();
-            return id;
-        }
-
-        public static int ExecuteSelectOrderDateByID()
-        {
-            int id = 0;
-            var connection = orderRepository.connectionDB.CreateConnection();
-            using (var command = connection.CreateCommand())
-            {
-                command.CommandText = "SELECT MAX(OrderID) FROM Orders WHERE OrderDate is null";
-                id = (int)command.ExecuteScalar();
-            }
-            connection.Close();
-            return id;
         }
 
         public static object ExecuteSelectOrderDateValue(int id)
