@@ -1,0 +1,1 @@
+Logparser " SELECT Text AS Errors INTO ReportError.csv FROM 2020-09-17_info.log WHERE Text LIKE '%ERROR%'" -o datagrid
