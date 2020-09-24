@@ -1,0 +1,11 @@
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\SiteDownloader\obj\Debug\SiteDownloader.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\SiteDownloader\obj\Debug\SiteDownloader.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\SiteDownloader\bin\Debug\SiteDownloader.exe.config
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\SiteDownloader\bin\Debug\SiteDownloader.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\SiteDownloader\bin\Debug\SiteDownloader.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\SiteDownloader\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\SiteDownloader\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\SiteDownloader\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\SiteDownloader\obj\Debug\SiteDownloader.csproj.CopyComplete
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\SiteDownloader\obj\Debug\SiteDownloader.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\SiteDownloader\obj\Debug\SiteDownloader.pdb

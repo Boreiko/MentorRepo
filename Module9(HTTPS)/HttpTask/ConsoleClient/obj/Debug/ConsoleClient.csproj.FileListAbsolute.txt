@@ -1,0 +1,14 @@
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\ConsoleClient\obj\Debug\ConsoleClient.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\ConsoleClient\bin\Debug\ConsoleClient.exe.config
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\ConsoleClient\bin\Debug\ConsoleClient.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\ConsoleClient\bin\Debug\ConsoleClient.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\ConsoleClient\bin\Debug\SiteDownloader.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\ConsoleClient\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\ConsoleClient\bin\Debug\SiteDownloader.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\ConsoleClient\bin\Debug\SiteDownloader.exe.config
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\ConsoleClient\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\ConsoleClient\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\ConsoleClient\obj\Debug\ConsoleClient.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\ConsoleClient\obj\Debug\ConsoleClient.csproj.CopyComplete
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\ConsoleClient\obj\Debug\ConsoleClient.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module9(HTTPS)\HttpTask\ConsoleClient\obj\Debug\ConsoleClient.pdb
