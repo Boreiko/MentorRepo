@@ -5,3 +5,10 @@ C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationS
 C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolution\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
 C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolution\Task1\obj\Debug\Task1.exe
 C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolution\Task1\obj\Debug\Task1.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask1\Task1\bin\Debug\Task1.exe.config
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask1\Task1\bin\Debug\Task1.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask1\Task1\bin\Debug\Task1.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask1\Task1\obj\Debug\Task1.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask1\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask1\Task1\obj\Debug\Task1.exe
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask1\Task1\obj\Debug\Task1.pdb

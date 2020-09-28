@@ -1,0 +1,13 @@
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask2\Task\Task\bin\Debug\Task.dll.config
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask2\Task\Task\bin\Debug\Task.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask2\Task\Task\bin\Debug\Task.pdb
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask2\Task\Task\bin\Debug\EntityFramework.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask2\Task\Task\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask2\Task\Task\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask2\Task\Task\bin\Debug\EntityFramework.xml
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask2\Task\Task\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask2\Task\Task\obj\Debug\Task.csprojAssemblyReference.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask2\Task\Task\obj\Debug\Task.csproj.CoreCompileInputs.cache
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask2\Task\Task\obj\Debug\Task.csproj.CopyComplete
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask2\Task\Task\obj\Debug\Task.dll
+C:\Users\Kirill_Boreiko\Documents\Mentor\Module12 (Serialization)\SerializationSolutionTask2\Task\Task\obj\Debug\Task.pdb
